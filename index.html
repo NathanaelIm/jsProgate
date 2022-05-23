@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <input type="text" id="input" />
+    <button id="btn-input">Submit</button>
+
+    <script>
+      document.getElementById("btn-input").onclick = run;
+
+      function run() {
+        var nilai = document.getElementById("input").value;
+        if (nilai % 3 == 0) {
+          document.writeln("Fizz");
+        } else if (nilai % 5 == 0) {
+          document.writeln("Buzz");
+        } else if (nilai % 3 === 0 && i % 5 == 0) {
+          document.writeln("FizzBuzz");
+        } else if ((nilai = 0 || undefined)) {
+          document.writeln("Invalid input");
+        } else {
+          document.writeln(nilai);
+        }
+      }
+    </script>
+  </body>
+</html>
